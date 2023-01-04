@@ -29,10 +29,3 @@
 # range에 설정한 수만큼 줄바꿈으로 입력받고
 # 한줄에 띄어쓰기로 여러개 입력받고 2차원 배열에 저장
 # strings=[input().split() for _ in range(3)]
-
-x,y=map(int, input().split())
-print(x+y)
-print(x-y)
-print(x*y)
-print(x/y)
-print(x%y)
