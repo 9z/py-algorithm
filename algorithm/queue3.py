@@ -44,10 +44,10 @@ x, y=0, 0
 
 time=0
 
-# 벽에 몸이 부딪힌다
 # 자기 몸에 부딪힌다
 while 1:
-    if n <= x+=dx[d] < 0:
+    # 벽에 몸이 부딪힌다
+    if n <= x+=dx[d] < 0 | n <= y+=dy[d] < 0:
         break
     x+=dx[d]
     y+=dy[d]
